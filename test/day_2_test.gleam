@@ -11,3 +11,7 @@ const test_data = "7 6 4 2 1
 pub fn part_1_test() {
   should.equal(day_2.part_1(test_data), 2)
 }
+
+pub fn part_2_test() {
+  should.equal(day_2.part_2(test_data), 4)
+}
